@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+li {
+    float: left;
+    margin-top:10px;
+    margin-left: 2%;
+}
+.ClassLogin {
+    float: right ;
+    margin-right: 5%;
+
+
+}
+li a {
+    background-color: rgba(82, 179, 235, 0);
+    border-radius: 100px;
+    border: 0px ;
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight : bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    width:125px;
+    border-style: double;
+}
+.ClassLogin{
+    border-radius: 100px;
+    background-color: rgba(66, 235, 241, 0.158);
+}
+img{
+    position: absolute;
+    height: 30px;
+    width : 30px;
+}
+li a:hover {
+    background-color: rgba(66, 236, 241, 0.616);
+}
+
+.TOP{
+    height: 110vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("ImgTop.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.TOP-TEXT{
+    position: absolute;
+    text-align: center;
+    font-weight:bold;
+    color: white;
+    font-size: 25px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+ 
+}
+
+.TOP2{ 
+    background-color: rgba(66, 236, 241, 0.616);
+    border-radius: 100px;
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
